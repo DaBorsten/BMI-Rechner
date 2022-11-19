@@ -1,3 +1,3 @@
 # BMI-Rechner
 
-<img src="/image/BMI-Rechner.png">
+<img src="/images/BMI-Rechner.png">
