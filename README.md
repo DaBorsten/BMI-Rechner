@@ -1,5 +1,5 @@
 # BMI-Rechner
 
 <p align="center">
-![BMI-Rechner](/images/BMI-Rechner.png)
+<img src="/images/BMI-Rechner.png">
 </p>
