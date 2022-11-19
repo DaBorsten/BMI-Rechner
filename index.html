@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rechner für den Body-Mass-Index">
+    <meta name="author" content="Boas Rautmann">
+    <title>BMI-Rechner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Zentrierter Bereich für BMI-Rechner -->
+    <div class="wrapper">
+
+        <!-- Überschrift -->
+        <h1>BMI-Rechner</h1>
+
+        <!-- Kurzer Infotext -->
+        <div class="info">
+            <p>Der Body-Mass-Index ist eine Maßzahl für die Klassifizierung des Körpergewichts eines Menschen in
+                Relation zu
+                seiner Körpergröße.</p>
+        </div>
+
+        <!-- Eingabefeld für die Masse -->
+        <div class="eingabebereich">
+            <div>
+                <label for="masse">Masse</label>
+            </div>
+            <input class="eingabefeld" id="masse" type="number" min="1" placeholder="Masse in kg" autofocus>
+        </div>
+
+        <!-- Eingabefeld für die Höhe -->
+        <div class="eingabebereich">
+            <div>
+                <label for="groesse">Größe</label>
+            </div>
+            <input class="eingabefeld" id="groesse" type="number" min="0.01" step="0.01" placeholder="Größe in m">
+        </div>
+
+        <!-- Button zum Berechnen -->
+        <button onclick="bmiBerechnen()">Berechnen</button>
+
+        <!-- Bereich für mehr Details -->
+        <div>
+            <p class="ergebnisText">Dein Body-Mass-Index beträgt: <span id="ergebnisBMI"></span></p>
+        </div>
+
+        <details id="mehrDetails">
+            <summary id="mehrDetailsUeberschrift">Mehr Details</summary>
+            <p id="mehrDetailsText">Du hast <span id="detailBMI"></span></p>
+        </details>
+
+    </div>
+
+</body>
+
+</html>

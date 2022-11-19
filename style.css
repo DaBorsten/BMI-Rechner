@@ -1,0 +1,128 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0
+}
+
+
+/* Zentrierter Bereich für BMI-REchner */
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 20px;
+    width: 550px;
+    background-color: #f0f4ff;
+    border-radius: 5px;
+
+    box-shadow: 6px 6px 12px #d8dce6,
+        -6px -6px 12px #ffffff;
+}
+
+
+/* Überschrift */
+
+h1 {
+    text-align: center;
+}
+
+
+/* Infotext */
+
+.info {
+    background-color: #afe6ff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    align-content: center;
+}
+
+p {
+    margin: 0;
+    font-weight: 600;
+}
+
+
+/* Benutzereingaben */
+
+.eingabebereich {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.eingabefeld {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+label {
+    font-size: medium;
+    font-weight: 600;
+    line-height: 3;
+}
+
+
+/* Berechnen-Button */
+
+button {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #afe6ff;
+    border: 2px solid transparent
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+/* Ergebnis */
+
+.ergebnisText {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#ergebnisBMI {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
+
+
+/* Details */
+
+#mehrDetails {
+    display: none;
+}
+
+#mehrDetailsUeberschrift {
+    font-size: 17px;
+    font-weight: 600;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 20px;
+}
+
+#MehrDetailsText {
+    margin-top: 10px;
+}
