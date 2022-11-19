@@ -1,3 +1,3 @@
 # BMI-Rechner
 
-<img src="/images/BMI-Rechner.png">
+![BMI-Rechner](/images/electrocat.png)
